@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  
+  
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Interactive rating component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center;
+       margin-top: 1rem;
+       color: white;
+    }
+    .attribution a { color: hsl(231, 81%, 71%); }
+  </style>
+</head>
+<body>
+
+
+  <!-- Rating state start -->
+   
+
+    <div class="feedback ">
+      <img class="star" src="images/icon-star.svg" alt="star">
+       <h1 class="heading">How did we do?</h1>
+
+      <p > Please let us know how we did with your support request. All feedback is appreciated 
+       to help us improve our offering!</p>
+         
+       <ul class="rating">
+        <li><button class="btn">1</button></li>
+        <li><button class="btn">2</button></li>
+        <li><button class="btn">3</button></li>
+        <li><button class="btn">4</button></li>
+        <li><button class="btn">5</button></li>
+       </ul>
+     
+      
+     
+
+     <button class="btn_sumbit " id="sumbit">SUMBIT</button> 
+
+   </div>
+<div class="answer hidden">
+  <!-- Rating state end -->
+
+  <!-- Thank you state start -->
+   <img src="images/illustration-thank-you.svg" alt="images">
+   <p class="review"> You selected <span class="rates"></span> out of 5</p>
+
+  <h1 class="thanks">Thank you!</h1>
+
+  <p class="about_rating"> We appreciate you taking the time to give a rating. If you ever need more support, 
+    don’t hesitate to get in touch! </p>
+
+    <button class="btn_sumbit  " id="rating-again">RATING AGAIN</button> 
+
+  </div>
+  <!-- Thank you state end -->
+
+
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Ankit</a>.
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
